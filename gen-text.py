@@ -78,11 +78,11 @@ def generate_page(title, pgnum, headings, prev_sentence, discourage=True):
     if discourage:
         prompt_text = f'''
 
-[Page headings: {{{{{'|'.join(headings)}}}~Economics and manufactures}}]
+{{[Page headings: {{{{{'|'.join(headings)}}}~Economics and manufactures}}]
 
 {{{title}~THE WEALTH OF NATIONS}}, PG {pgnum}
 
-{prev_sentence}'''
+{prev_sentence}~}}'''
     else:
         prompt_text = f'''
 
@@ -95,12 +95,7 @@ def generate_page(title, pgnum, headings, prev_sentence, discourage=True):
     print(prompt_text)
     return generate_sequence(prompt_text)
 
-def generate_the_wealth_of_nations():
-    title = 'THE WEALTH OF NATIONS'
-
-    with open('adamsmith-index.pkl', 'rb') as f:
-        index = pickle.load(f)
-
+def generate_book(title, index, filename, discourage=True):
     page_headings = {}
     for heading in index:
         for subheading, pgnum in index[heading]:
@@ -109,19 +104,49 @@ def generate_the_wealth_of_nations():
             else:
                 page_headings[pgnum] = [(heading, subheading)]
     
-    with open('the-wealth-of-nations-generated.txt', 'w') as f:
+    with open(filename, 'w') as f:
         last_sentence = ''
         for pgnum in sorted(int(x) for x in page_headings.keys()):
             f.write(f'{title}, PG {pgnum}\n\n')
             headings = [x[0] + ', ' + x[1] for x in page_headings[pgnum]]
-            pgtext = generate_page(title, pgnum, headings, last_sentence, False)
+            pgtext = generate_page(title, pgnum, headings, last_sentence, discourage)
             pgtext = pgtext.strip()
             f.write(f'{pgtext}\n\n')
+            f.flush()
             last_sentence = sent_tokenize(pgtext)[-1]
 
-# print(generate_page(
-#     'THE JOURNEY OF TOM HERO', 1,
-#     ['Tom Hero, the start of his journey', 'Bravery, its importance to a hero'],
-#     ''
-# ))
-generate_the_wealth_of_nations()
+def generate_the_wealth_of_nations():
+    title = 'THE WEALTH OF NATIONS'
+    with open('adamsmith-index.pkl', 'rb') as f:
+        index = pickle.load(f)
+    generate_book(title, index, 'the-wealth-of-nations-generated.txt', discourage=False)
+
+def generate_from_index(title, index_filename, out_filename):
+    index = {}
+    with open(index_filename, 'r') as f:
+        current_heading = None
+        for line in f.readlines():
+            if line.isspace():
+                continue
+            if line.startswith(' '):
+                if current_heading is None:
+                    raise Exception('Invalid indentation')
+                subheading_list = []
+                subheading, pgnums = line.strip().split(', ', 1)
+                for pgnum in pgnums.split(', '):
+                    if '-' in pgnum:
+                        pgmin, pgmax = pgnum.split('-')
+                        for i in range(int(pgmin), int(pgmax)+1):
+                            subheading_list.append((subheading, i))
+                    else:
+                        subheading_list.append((subheading, int(pgnum)))
+                if current_heading in index:
+                    index[current_heading] += subheading_list
+                else:
+                    index[current_heading] = subheading_list
+            else:
+                current_heading = line.strip()
+
+    generate_book(title, index, out_filename)
+
+generate_from_index('THE JOURNEY OF TOM HERO: A NOVEL', 'index.txt', 'tomhero.txt')

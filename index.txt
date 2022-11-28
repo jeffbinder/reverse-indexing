@@ -1,0 +1,181 @@
+Atonement
+    Of Tom Hero, 90-95
+    Role in the monomyth, 92-93
+    In Christianity, 94
+
+The Bad Woman
+    Her appearance and character, 52-53
+    How she tempted Tom Hero, 54-56
+    Tom Hero's spurning of, 56-58
+    Sexism in the depiction of, 57-60
+
+The Bridge Troll
+    Tom Hero's childhood memory of, 19
+    His threat to Tom Hero, 20-21
+    Strategies for defeating (melee combat), 22
+    Strategies for defeating (ranged combat), 23
+    Tom Hero fights and defeats him, 24-28
+
+Joseph Campbell
+    Idea of the monomyth, 12, 62
+    The Hero With a Thousand Faces, 13
+    Influence on this story, 15, 61
+    Criticisms of, 61, 97, 133-134
+
+The Cat Goddess
+    Appearance and character, 113-114
+    Metaphysical significance of, 114-116
+    Visual resemblance to cat memes, 116
+    Gift to Tom Hero, 117-118
+    Tom Hero's allergy to, 119, 124-125
+
+The Demon Beast
+    The evil it has inflicted upon the world, 6
+    Its resemblance to other fictional beasts, 7
+    The sharpness of its talons, 7, 86
+    Symbolic significance, 11
+    Tom Hero's fear of, 86
+    And machine learning, 86, 100
+    A detailed description of, 86, 101-102
+    Similarity to video game bosses, 103
+    Strategies for defeating (melee combat), 104-106
+    Strategies for defeating (ranged combat), 107-108
+    Its defeat at the hands of Tom Hero, 109-112
+
+The Demonic Realm
+    A description theoreof, 32-34
+    Tom Hero's reaction to, 35
+    Its color palette contrasted to that of the Domestic Woodlands, 36
+
+The Domestic Woodlands
+    The simple beauty of life therein, 1
+    A description theoreof, 2-3
+    Tom Hero's childhood therein, 4-5, 63
+    The lamentable poverty of the workers in the keepsake factory, 63-64
+
+Folklore
+    And story structure, 62-63
+    Tom Hero's childhood interest in, 63
+    Its influence on the characterization of the Demon Beast, 103
+
+The Foreign Land
+    A description thereof, 119-120
+    Tom Hero's life within, 119-123
+    Tom Hero's departure from, 126
+
+Gifts
+    Of the Mysterious Stranger, 18
+    The boon Han Solo grants to Tom Hero, 84-85
+    Of the Cat Goddess, 117-118
+
+Helpers
+    Of Tom Hero, 28, 66-70, 129-130
+    Of the author of this story, 67-70
+    Of the Demon Beast, 102
+
+Tom Hero
+    His childhood in the Domestic Woodlands, 1
+    How he saved a cat, 3
+    Hearing of the Demon Beast's ravages, 6-7
+    Attempting to return to work at his father's keepsake factory, 8-10
+    Realizes he's been making keepsakes wrong, 11
+    Convinced of the need to fight the Demon Beast, 11
+    His farewell to his mother, 12-13
+    His departure, 13-15
+    His encounter with the Mysterious Stranger, 15
+    Receives a gift from the Mysterious Stranger, 18
+    His fight with the Bridge Troll, 20-28
+    His journey into the Demonic Realm, 29-33
+    His passage through the Valley of Doom, 41-50
+    His temptation by the Bad Woman, 51-60
+    His temptation to steal the lost wallet, 64-70
+    Takes the lost wallet to lost and found, 70
+    His encounter with Han Solo, 70-85
+    His trepidation as he nears the Demon Beast, 86
+    His remembrance of his mother's secret, 87
+    Realization of the right way to make keepsakes, 87-89
+    Atonement for making keepsakes wrong, 90-95
+    His transformation into a true hero, 96-98
+    His fight with the Demon Beast, 99-112
+    How he attained the gift of the Cat Goddess, 113-118
+    His days in the Foreign Land, 119-123
+    Realization that he is allergic to cats, 124-125
+    His voyage home from the Foreign Land, 127-130
+    Reunited with his mother, 131-133
+
+Literary formulae
+    Their relationship to genre, 26
+    Monomyth and, 39-40
+    As folk practices, 47-48
+
+Machine learning
+    Role in generating this story, 38-39, 132
+    Dependence on historical data, 40
+    The Demon Beast and, 86
+
+Mentors
+    Of Tom Hero, 5
+    Of the author of this story, 5-6
+
+Monomyth
+    Tom Hero's journey and, 12-15, 62
+
+Mother Hero
+    Her love for Tom Hero, 4
+    Her secret, 87
+    How she changed during Tom Hero's journey, 132
+
+The Mysterious Stranger
+    Her appearance, 15-16
+    Her lack of clear characterization, 17
+    Her gift to Tom Hero, 18
+    
+Revelation
+    Of Tom Hero's unknown origin, 118
+    In Joseph Campbell's theory of the monomyth, 118, 131
+    Of the origin of this story, 131-132
+
+Han Solo
+    His encounter with Tom Hero, 70-85
+    Whether he shot first, 81-82
+    Criticism of his presence in this story, 82-83
+    The boon he grants to Tom Hero, 84-85
+
+Star Wars
+    Similarity to this story, 72
+    Its adaptation of the monomyth, 73-74
+    Criticisms of prequels, 74-80
+
+Temptation
+    By the Bad Woman, 54-56
+    Misogyny and the idea of, 60
+    Machine learning and, 61-62
+    By the lost wallet, 64-70
+
+This Story
+    Overall structure, 2, 97
+    Tom Hero's role in, 7, 97, 132
+    Aesthetic criticisms of, 27, 36-37, 46
+    Accusations of plagiarism, 37, 109
+    Its generation by a computer, 38-39
+    Defenses from criticisms of, 47, 62, 109, 135-136
+    General incoherence of, 61
+    Excessive dependence on Joseph Campbell, 97
+    Climax, 110-112
+    Tom Hero's narration of after his return home, 133-134
+    Criticism for misusing Joseph Campbell's theory, 133, 135
+
+Transformation
+    Of text by machine learning models, 39, 97
+    Tom Hero's rebirth as a true warrior, 96-98
+    Role in the monomyth, 98
+
+Travel
+    Excitement about, 13
+    The traveler's dependence on the aid of strangers, 14, 129
+
+The Valley of Doom
+    A description thereof, 42-43
+    Distinguished from Doom the video game, 43
+    The perils Tom Hero faced within, 44
+    Symbolic significance, 45
