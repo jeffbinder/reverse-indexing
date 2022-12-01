@@ -14,10 +14,10 @@ device = 'cuda'
 
 generation_length = 500
 do_sample = True
-temperature = 0.8
+temperature = 0.6
 k = 5
 p = 0.5
-repetition_penalty = 1.5
+repetition_penalty = 1.25
 overlap_factor = 0.25
 
 # Initialize the model and tokenizer
@@ -78,15 +78,15 @@ def generate_page(title, pgnum, headings, prev_sentence, discourage=True):
     if discourage:
         prompt_text = f'''
 
-{{[Page headings: {{{{{'|'.join(headings)}}}~Economics and manufactures}}]
+{{[Page headings: {{{';  '.join(headings)}~Economics and manufactures}}]
 
-{{{title}~THE WEALTH OF NATIONS}}, PG {pgnum}
+{{{title}~THE WEALTH OF NATIONS}}, PG {pgnum}~}}
 
-{prev_sentence}~}}'''
+{prev_sentence}'''
     else:
         prompt_text = f'''
 
-[Page headings: {{{'|'.join(headings)}}}]
+[Page headings: {';  '.join(headings)}]
 
 {title}, PG {pgnum}
 

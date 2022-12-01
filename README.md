@@ -15,6 +15,6 @@ I also took inspiration from a passage in Michel Foucault's _The Order of Things
 
 I wanted to generate a text that, similarly, draws no clear line between narration of a story and critical commentary about that story. The entries I wrote for major characters therefore promise not just descriptions and actions, but also comments about the characters' resemblance to various cultural sources, criticisms of how the characters are depicted, and accusations of plagiarism. I am aiming not so much at self-reflexive metafiction as a style that declines to draw any line between fiction and metafiction.
 
-The [initial results](https://github.com/jeffbinder/reverse-indexing/blob/main/tomhero-v1.txt) are somewhat rocky, and I am still working on the generation procedure. More to come...
+I generated two different versions: [version 1](https://github.com/jeffbinder/reverse-indexing/blob/main/tomhero-v1.txt); [version 2](https://github.com/jeffbinder/reverse-indexing/blob/main/tomhero-v2.txt). The first is somewhat more coherent, but the second hews closer to the index and has a cutup quality that is enjoyable in its own way. I consider the second to by my NaNoGenMo entry.
 
 If you want to run this code, you will need to download a copy of the [PromptArray](https://github.com/jeffbinder/promptarray) in this directory.
